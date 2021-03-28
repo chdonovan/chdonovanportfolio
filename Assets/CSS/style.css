@@ -1,1 +1,23 @@
-need to add title/nav bar styles
+:root{
+    going to ad colors here
+}
+
+*box-sizing: {
+    box sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color: seagreen;
+    display: flex;
+}
+
+h1{
+    text-align: left ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header nav ul{
+    float:right;
+}
