@@ -10,14 +10,17 @@
 
 header{
     background-color: seagreen;
-    display: flex;
+    display: inline-block;
+    width: 100%;
 }
 
 h1{
     text-align: left ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
 }
 
 header nav ul{
     float:right;
+    text-align: right;
 }
