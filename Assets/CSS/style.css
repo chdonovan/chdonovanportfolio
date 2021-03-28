@@ -10,17 +10,27 @@
 
 header{
     background-color: seagreen;
-    display: inline-block;
+    display: flex; 
+    flex-wrap: wrap;  
     width: 100%;
 }
 
 h1{
-    text-align: left ;
+    text-align: center ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: inline;
+    
+    width: 100%;
+
 }
 
 header nav ul{
     float:right;
     text-align: right;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
 }
+
+header nav ul li {
+    
