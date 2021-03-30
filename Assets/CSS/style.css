@@ -9,26 +9,31 @@
 }
 
 header{
-    display: flex; 
-    flex-wrap: wrap;  
+     
     width: 100%;
-    background-color: black;
+    
+    background-image: url(../Images/camille-brodard-VB0bZr2xGHY-unsplash.jpg);
+    height: 150px;
+    background-position: bottom;
 }
 
 h1{
     text-align: center ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 100%;
+    float: left;
     background-color: black ;
     color: springgreen;
-    margin: 50px 50px;
-    background-image: url(../Images/camille-brodard-VB0bZr2xGHY-unsplash.jpg);
-    background-position:left;
-    background-size: cover;
+    margin:0;
+
+    
 
 
 }
-
+nav{
+    background: black;
+    float: right;
+    color: springgreen;
+}
 header nav ul{
     float:right;
     text-align: right;
@@ -36,6 +41,7 @@ header nav ul{
     list-style: none;
     width: 100%;
     justify-content: space-evenly;
+    margin:0;   
 }
 
 header li {
