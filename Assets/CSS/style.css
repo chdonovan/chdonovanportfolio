@@ -65,12 +65,26 @@ header li {
     border-color: lightcoral;
     border-width: 20px;
     border-style: solid;
+    padding: 40px;
+
+}
+.top-app img{
+    width: 50%;
+    height:300px;
+    border-radius: 8px;
+    
+    
 }
 .middle-apps{
    display: inline-block;
    width: 30%;
    margin: 15px 15px;
    text-align: center;
+   padding: 40px ;
+}
+.middle-apps img{
+    height:200px;
+    width: 300px;
 }
 .bottom-app{
     text-align: center;
@@ -78,6 +92,7 @@ header li {
     border: blue;
     border-width: 20px;
     border-style: solid;
+    padding: 40px;
 }
 
 /* footer styles */
@@ -86,11 +101,13 @@ footer{
     height: 300px;
     display: flex;
     flex-wrap: wrap;
+    background-image: url(../Images/camille-brodard-VB0bZr2xGHY-unsplash.jpg);
+    background-position: bottom;
+    height: 150px;
 
 }
 footer h3{
     text-align: center;
-    background-image: url('../Images/footer.jpg.jpg');
     margin: 50px;
     padding: 100px;
     width:100%;
