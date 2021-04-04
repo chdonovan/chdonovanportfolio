@@ -4,7 +4,10 @@
     margin:0px;
     padding:0px;
 }
+.body{
+    background-color: #5f6366;
 
+}
 header{
      
     width: 100%;
@@ -134,7 +137,7 @@ a:link{
 }
 .in-the-middle{
     display: flex;
-    justify-content: space-between;
+    width: 100%;
 }
 .bottom-app{
     text-align: center;
@@ -186,8 +189,13 @@ footer h3{
     display: flex;
     justify-content:space-evenly;
     padding: 20px;
+    border:#99ced3;
+    border-style: solid;
+    border-width: 3px;
 }
-.hero h2{text-align: center;
+.hero h2{
+    text-align: center;
+    line-height: 1.2;
    
 
 }
@@ -199,3 +207,87 @@ footer h3{
     display: flex;
     justify-content: center;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    
+  /* this will be applied on any screen smaller than 980px */
+
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+    
+    header h1 h2{
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    footer h3, footer div {
+        text-align: center;
+        width: 100%;
+      
+    }
+    .hero{
+        width: 100%;
+        text-align:center;
+        padding:0px;
+    }
+  
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    
+      /* this will be applied on any screen between 768px and 575px */
+      section {
+       
+      }
+      .herobio{
+          height: auto;
+
+      }
+    
+      .h3 {
+        flex: 1 100%;
+        text-align: center;
+      }
+    
+      .top-app {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+      }
+    
+      .middle-apps {
+        flex: 0 100%;
+        margin-right: 0;
+        width: 100%;
+        
+      }
+    
+      .my-apps{
+        flex: 100%;  
+        width:100%
+      }
+    
+    }
+}
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER 
+  @media screen and (max-width: 575px) {
+    header h1 {
+      /* this will be applied on any screen smaller than 575px */
+      font-size: 10px;
+    }
+  }
