@@ -78,11 +78,10 @@ header li {
 }
 .middle-apps{
     text-align: center;
-    width: auto;
+    width: 50%;
     background-color:turquoise;
     height: auto;
-    display: flex;
-    flex: 1;
+    
         
     
 }
@@ -106,6 +105,8 @@ header li {
     background-color:turquoise;
     height: auto;
     display: flex;
+    flex-direction: row-reverse;
+    
 
     
 }
@@ -113,7 +114,7 @@ header li {
 .bottom-app img{
     height: auto;
     width: 30%;
-    float: left;
+    float: right;
 }
 /* footer styles */
 
@@ -133,7 +134,7 @@ footer h3{
     padding: 100px;
     width:100%;
 
-    ;
+    
     
 }
 /* hero/about me styles*/
