@@ -72,9 +72,10 @@ header li {
 }
 a:link{
     text-decoration:none;
+    color: antiquewhite;
     
-    font-weight: bold;
     font-size: 30px;
+    text-shadow: 2px 2px black;
 }
 
 .apps-title{
