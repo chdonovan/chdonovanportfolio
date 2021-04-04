@@ -1,6 +1,3 @@
-:root{
-    going to ad colors here
-}
 
 *box-sizing: {
     box sizing:border-box;
@@ -19,20 +16,38 @@ header{
 
 h1{
     text-align: center ;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     float: left;
-    background-color: black ;
-    color: springgreen;
-    margin:0;
+    background:#5f6366; 
+    margin:5px;
+    padding: 7.5px;
+    color: antiquewhite;
+    text-shadow: 2px 2px black;
+    
 
     
 
 
 }
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    color:#4d6d9a;
+    text-shadow: 2px 2px black;
+    
+}
+h3{
+    color: #edb5bf;
+    text-shadow: 2px 2px black;
+}
+
+
 nav{
-    background: black;
+    background:#5f6366;
     float: right;
-    color: springgreen;
+    margin:5px;
+    padding:7.5px;
+    color: antiquewhite;
 }
 header nav ul{
     float:right;
@@ -47,9 +62,16 @@ header nav ul{
 header li {
     font: weight 100px;
     font-family: fantasy;
-    background-color: black;
+    background:#5f6366;
     padding:0 10px;
+    color: black;
 
+}
+a:link{
+    text-decoration:none;
+    
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .apps-title{
@@ -61,16 +83,22 @@ header li {
 .top-app{
     text-align: center;
     width: auto;
-    background-color:turquoise;
+    background:#5f6366;
     height: auto;
     display: flex;
-    
+    border: #4d6d9a;
+    border-style: solid;
+    border-width: 3px;
+    padding: 20px;
+    ;
 
 }
 .top-app img{
     width: 30%;
     height:auto;
     border-radius: 8px;
+    padding:15px;
+    border-radius: inherit;
    
     
     
@@ -79,8 +107,10 @@ header li {
 .middle-apps{
     text-align: center;
     width: 50%;
-    background-color:turquoise;
+    background:#5f6366;
     height: auto;
+    padding: 20px;
+    
     
         
     
@@ -88,24 +118,35 @@ header li {
 .middle-style{
     width: auto;
     display: flex;
+    border:#99ced3;
+    border-style: solid;
+    border-width: 3px;
+    padding: 20px;
+
     
 
 }
 .middle-apps img{
     width: 30%;
     height: auto;
+    padding: 20px;
     
 }
 .in-the-middle{
     display: flex;
+    justify-content: space-between;
 }
 .bottom-app{
     text-align: center;
     width: auto;
-    background-color:turquoise;
+    background:#5f6366;
     height: auto;
     display: flex;
     flex-direction: row-reverse;
+    border: #4d6d9a;
+    border-style: solid;
+    border-width: 3px;
+    padding: 20px;
     
 
     
@@ -115,24 +156,22 @@ header li {
     height: auto;
     width: 30%;
     float: right;
+    padding: 20px;
 }
 /* footer styles */
 
 footer{
     background-color: black;
-    height: 300px;
     display: flex;
     flex-wrap: wrap;
     background-image: url(../Images/camille-brodard-VB0bZr2xGHY-unsplash.jpg);
-    background-position: bottom;
-    height: 150px;
+    background-position: bottom;    
 
 }
 footer h3{
+    float;
     text-align: center;
-    margin: 50px;
-    padding: 100px;
-    width:100%;
+    background-color: #5f6366;
 
     
     
@@ -142,34 +181,21 @@ footer h3{
 
 
 .hero{
-    width: 100%;
-    height: 25%;
-    background:black;
-    color:springgreen;
-    margin:0;
+    max-height: 200px   ;
+    background:#5f6366;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
-    
-
+    justify-content:space-evenly;
+    padding: 20px;
 }
-.hero h2{
-    text-align: center;
-    margin:0;
-    float: right;
-    width: 40%;
-    padding-top: 100px;
-    padding-right: 50px;
+.hero h2{text-align: center;
+   
 
 }
 .hero img{
-    width: 30%;
-    height: auto;
-    background: lightcoral;
-    padding:130px;
+    height: 100%;
+  
 }
-.hero p{
-    text-align: center
-
+.heroimg{
+    display: flex;
+    justify-content: center;
 }
